@@ -1,13 +1,13 @@
-package com.example.movierec;
+    package com.example.movierec;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class MovierecApplication {
+    @SpringBootApplication
+    public class MovieRecommendationApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(MovierecApplication.class, args);
+        public static void main(String[] args) {
+            SpringApplication.run(MovieRecommendationApplication.class, args);
+        }
+
     }
-
-}

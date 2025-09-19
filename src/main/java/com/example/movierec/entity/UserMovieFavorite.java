@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "user_movie_favorites",
         uniqueConstraints = @UniqueConstraint(columnNames = {"user_id", "movie_id"}))
-public class UserMovieFavorites {
+public class UserMovieFavorite {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
